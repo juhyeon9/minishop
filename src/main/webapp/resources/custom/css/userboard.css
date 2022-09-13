@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+/*공통*/
+
+div .subTitle{
+	background-color : #343A40;
+	padding: 15px 0;
+	text-align: center;}
+	
+div .subContent{padding: 15px;}	
+	
+table {
+	text-align : center;
+	margin-left: auto; 
+	margin-right: auto;}
+	
+textarea {
+	width: 100%;
+	resize: none;}
+
+	
+.subTitle font{color: white;}
+	
+#subjectA:link {color: black; text-decoration: none;}
+#subjectA:visited {color: black; text-decoration: none;}
+#subjectA:hover {color: green; text-decoration: underline; font-weight: bold;}
+#subjectA:active {color: black; text-decoration: none;}
+
+#paging{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;}
+
+#currentPaging{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;}
+
+#imgDiv{
+	width: 60px;
+	height: 80px;
+	margin-right : 20px;
+	text-align : center;}
+	
+
+#writingArea{
+	width : 400px;
+	height : 400px;
+	text-align: center;
+	margin-left : auto;
+	margin-right : auto;}
+	
+#btnDiv div{padding: 10px 0;}
+
+/*QA*/
+	
+#makeSecret button{
+	margin-top: 30px; 
+	margin-bottom: auto;}
+
+#changeSecret button{
+	margin-top: 30px; 
+	margin-bottom: auto;}
+
+#qa_content{color : black;}
+
+#adminAns{color : white;}
+	
+.contentArea{height: 100px;}
+	
+.qaDiv input{width: 95%;}
+
+/*REVIEW*/
+
+.reviewDiv input{width: 95%;}
+
+.reviewContent{
+	height: 100%;
+	text-align: center;}
+	
